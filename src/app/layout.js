@@ -4,7 +4,7 @@ import { Hepta_Slab } from 'next/font/google'
 const hepta_slab = Hepta_Slab({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Project Gallery',
+  title: 'Gallery clone',
   description: 'Create by AnhNPT',
 }
 
