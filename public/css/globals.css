@@ -7,12 +7,22 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.column-1 {
-    grid-column: 1 / 2; 
+.layoutItem{
+    height: 100%;
+    width: 100%;
 }
 
-.column-2 {
-    grid-column: 2 / 3; 
-    display: grid;
-    grid-template-rows: 1fr 1fr; 
+.layoutItem:first-child{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.layoutItem.fullWidth{
+    grid-column: 1/3;
+    height: 400px;
+}
+
+.layoutItem.layout2{
+    grid-column: 2/3;
+    grid-row: 4/6;
 }
