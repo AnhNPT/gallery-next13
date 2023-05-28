@@ -1,10 +1,10 @@
-import '../../public/css/globals.css'
+import '/public/css/globals.css'
 import { Hepta_Slab } from 'next/font/google'
 
 const hepta_slab = Hepta_Slab({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Gallery clone',
+  title: 'Gallery Project',
   description: 'Create by AnhNPT',
 }
 
