@@ -15,16 +15,16 @@ export default function Home() {
 
     return (
         <div className="bg-[#121214] h-full w-full">
-            <div className="container flex mx-auto pt-36 pb-8">
+            <div className="container flex mx-4 lg:flex-row flex-col pt-6 lg:pt-36 pb-8 sm:mx-auto">
                 {/* Heading */}
-                <div className="heading">
+                <div className="heading pb-8">
                     <span className="text-white mr-44 font-normal text-5xl block leading-[60px]">
                         The — <br /> Abstract <br /> Gallery
                     </span>
                     <img src="/image/ArrowDownRight.svg" alt=""></img>
                 </div>
                 {/* Img */}
-                <div className="grid-container gap-8 w-full">
+                <div className="grid-container sm:gap-8 gap-4 w-full">
                     {/* Row 1 */}
                     <a href="/about" className={"layoutItem overflow-hidden relative"} onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
                         <img src="/image/img-here.jpg" alt="Image 2" className="w-full h-full object-cover"></img>
